@@ -20,3 +20,13 @@ G:\MyPortfolio\COMPUTER SCIENCE\Soumya Summative\Hangman Game\Hangman Game\obj\x
 G:\MyPortfolio\COMPUTER SCIENCE\Soumya Summative\Hangman Game\Hangman Game\obj\x86\Debug\Hangman Game.pdb
 C:\Users\Soumya\Desktop\SOUMYA\COMPUTER SCIENCE\Hangman Game\Hangman Game\Hangman Game\obj\x86\Debug\Hangman Game.exe
 C:\Users\Soumya\Desktop\SOUMYA\COMPUTER SCIENCE\Hangman Game\Hangman Game\Hangman Game\obj\x86\Debug\Hangman Game.pdb
+D:\Documents\GitHub\HangmanGame\Hangman Game\Hangman Game\bin\Debug\Hangman Game.exe.config
+D:\Documents\GitHub\HangmanGame\Hangman Game\Hangman Game\bin\Debug\Hangman Game.exe
+D:\Documents\GitHub\HangmanGame\Hangman Game\Hangman Game\bin\Debug\Hangman Game.pdb
+D:\Documents\GitHub\HangmanGame\Hangman Game\Hangman Game\obj\x86\Debug\Hangman Game.csproj.AssemblyReference.cache
+D:\Documents\GitHub\HangmanGame\Hangman Game\Hangman Game\obj\x86\Debug\Hangman_Game.Form1.resources
+D:\Documents\GitHub\HangmanGame\Hangman Game\Hangman Game\obj\x86\Debug\Hangman_Game.Properties.Resources.resources
+D:\Documents\GitHub\HangmanGame\Hangman Game\Hangman Game\obj\x86\Debug\Hangman Game.csproj.GenerateResource.cache
+D:\Documents\GitHub\HangmanGame\Hangman Game\Hangman Game\obj\x86\Debug\Hangman Game.csproj.CoreCompileInputs.cache
+D:\Documents\GitHub\HangmanGame\Hangman Game\Hangman Game\obj\x86\Debug\Hangman Game.exe
+D:\Documents\GitHub\HangmanGame\Hangman Game\Hangman Game\obj\x86\Debug\Hangman Game.pdb
