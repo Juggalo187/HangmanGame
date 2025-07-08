@@ -119,7 +119,7 @@ namespace Hangman_Game
         string GetRandomWord()// this function gets all the random words from that url 
         {
             WebClient wc = new WebClient();
-            string wordlist = wc.DownloadString("http://www.puzzlers.org/pub/wordlists/pocket.txt");// we get all words from this url
+            string wordlist = wc.DownloadString("https://raw.githubusercontent.com/Juggalo187/HangmanGame/master/Hangman%20Game/Hangman%20Game/pocket.txt");// we get all words from this url
             string[] words = wordlist.Split('\n');
             Random ran = new Random();
             return words[ran.Next(0,words.Length-1)];

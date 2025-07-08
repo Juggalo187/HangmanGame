@@ -14,15 +14,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
@@ -32,10 +28,14 @@
               "RelativeDocumentMoniker": "Hangman Game\\Form1.cs",
               "ToolTip": "D:\\Documents\\GitHub\\HangmanGame\\Hangman Game\\Hangman Game\\Form1.cs",
               "RelativeToolTip": "Hangman Game\\Form1.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAqwG8AAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAiwHkAAACZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-08T06:03:14.509Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }
