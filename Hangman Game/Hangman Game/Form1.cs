@@ -16,7 +16,8 @@ namespace Hangman_Game
         {
             InitializeComponent();
         }
-
+        HashSet<char> guessedLetters = new HashSet<char>();
+        private static bool formInitialized = false;
         string word = "";
         int amount = 0;
         List<Label> labels = new List<Label>();// a new list for all the label(underscores)
@@ -126,6 +127,15 @@ namespace Hangman_Game
         }
         private void Form1_Shown(object sender, EventArgs e)
         {
+
+            if (formInitialized)
+                return;
+
+            formInitialized = true;
+
+
+            // Your "shown" logic here — like starting the game, picking the word, etc.
+
             /*
              * The next 5 lines are code for drawing the lamppost as soon as the program is run 
              */
@@ -158,6 +168,14 @@ namespace Hangman_Game
                     MessageBox.Show("You can only submit letters", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
+                if (guessedLetters.Contains(letter))
+                {
+                    MessageBox.Show($"You've already guessed the letter '{letter}'!", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    return;
+                }
+
+                guessedLetters.Add(letter); // Mark as guessed
+
                 if (word.Contains(letter))// if letter entered matches the letter in the actual word then it will appear in one of the underscores
                 {
                     char[] letters = word.ToCharArray();
@@ -183,8 +201,12 @@ namespace Hangman_Game
                     amount++;
                     if (amount == 8)
                     {
-                        MessageBox.Show("You lost!");
-                        Environment.Exit(0);
+                        MessageBox.Show($"You lost! The word was: {word}");
+                        // Restart by refreshing the current form instead of closing it
+                        this.Hide();
+                        Form1 newForm = new Form1();
+                        newForm.ShowDialog(); // Use ShowDialog to keep the app alive until this form finishes
+                        this.Close();         // Now safely close the old form
                     }
                 }
             }
