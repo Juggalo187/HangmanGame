@@ -137,7 +137,7 @@ namespace Hangman_Game
             MakeLabels();
             Console.ForegroundColor = ConsoleColor.Green;
             /* The next line of code wll display the instructions of the hangman game*/
-            MessageBox.Show("Hello! Welcome to The Hangman with a twist! You play this game by entering your letter in the textbox after the 'submit letter' button and then press enter or submit letter to proceed! Make sure you keep an  eye on the 'missed' label so you know which letters you got incorrect so you don't repeat them again! Also remember you are only allowed 8 incorrects and after that you lose! Now let's get started!! ");
+            MessageBox.Show("Welcome to Hangman — with a twist! 🎉\n\nEnter a letter in the textbox and click 'Submit Letter' or press Enter to guess. Keep an eye on the 'Missed' label to track incorrect guesses. You only get 8 wrong guesses, so choose wisely!\n\nReady to play? Let’s go!");
         }
 
 
